@@ -12,7 +12,7 @@ setup(
         [console_scripts]
         li-analyzer=li_analyzer:analyze
     ''',
-    author='Your Name',
+    author='Pavel Chekmaryov',
     description='CLI tool to analyze LinkedIn profile data from CSV',
     license='MIT',
 )
