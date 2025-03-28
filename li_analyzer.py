@@ -14,7 +14,7 @@ def analyze(file):
         return
 
     # Expected columns based on LinkedIn export
-    expected_cols = ['First Name', 'Last Name', 'Profile URL', 'Email Address', 'Company', 'Position', 'Connected On']
+    expected_cols = ['First Name', 'Last Name', 'URL', 'Email Address', 'Company', 'Position', 'Connected On']
     missing_cols = [col for col in expected_cols if col not in df.columns]
     if missing_cols:
         click.echo(f"Warning: Missing columns in CSV: {missing_cols}")
