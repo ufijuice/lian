@@ -35,6 +35,6 @@ def analyze(file):
     click.echo(f"Total Connections: {total_connections}")
     click.echo(f"Unique Companies: {unique_companies}")
     click.echo("Top 5 Companies:")
-    click.echo(top_companies.to_string() if top_companies != "N/A" else "N/A")
+    click.echo(top_companies.to_string() if isinstance(top_companies, pd.Series) else "N/A")
     click.echo("Connections by Year:")
     click.echo(connections_by_year.to_string() if connections_by_year != "N/A" else "N/A")
