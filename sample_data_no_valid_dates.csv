@@ -1,0 +1,9 @@
+First Name,Last Name,URL,Email Address,Company,Position,Connected On
+Neo,Anderson,linkedin.com/neo,neo@email.com,Metacortex,The One,Invalid Date
+Trinity,Unknown,linkedin.com/trinity,trinity@email.com,Nebuchadnezzar,Operator,Not A Date
+Morpheus,Unknown,linkedin.com/morpheus,morpheus@email.com,Nebuchadnezzar,Captain,12345
+Agent,Smith,linkedin.com/agentsmith,smith@email.com,The Matrix,Agent,N/A
+Cypher,Reagan,linkedin.com/cypher,cypher@email.com,Nebuchadnezzar,Traitor,ErrorDate
+Mouse,Unknown,linkedin.com/mouse,mouse@email.com,Nebuchadnezzar,Programmer,Jan 1st 2023
+Tank,Unknown,linkedin.com/tank,tank@email.com,Nebuchadnezzar,Operator,2023/02/30
+Dozer,Unknown,linkedin.com/dozer,dozer@email.com,Nebuchadnezzar,Pilot,Feb 30 2023
